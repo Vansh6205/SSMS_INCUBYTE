@@ -13,7 +13,10 @@
   "author": "VANSH PATEL",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
     "jest": "^30.0.4"
-  }
+  },
+  "keywords": []
 }

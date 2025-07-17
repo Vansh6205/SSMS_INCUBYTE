@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🍬 Sweet Shop</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #fffbe6; }
+    input, button { margin: 5px; padding: 5px; }
+    table, th, td { border: 1px solid black; border-collapse: collapse; padding: 5px; }
+    table { margin-top: 15px; width: 100%; }
+  </style>
+</head>
+<body>
+  <h1>Sweet Shop Management System</h1>
+
+  <div>
+    <input id="id" placeholder="ID" />
+    <input id="name" placeholder="Name" />
+    <input id="category" placeholder="Category" />
+    <input id="price" placeholder="Price" type="number" />
+    <input id="quantity" placeholder="Quantity" type="number" />
+    <button onclick="addSweet()">Add Sweet</button>
+  </div>
+
+  <div>
+    <input id="search" placeholder="Search by name or category" />
+    <button onclick="searchSweets()">Search</button>
+    <button onclick="displaySweets()">View All</button>
+  </div>
+
+  <table id="sweetTable">
+    <thead>
+      <tr>
+        <th>ID</th><th>Name</th><th>Category</th><th>Price</th><th>Qty</th><th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="frontend.js" type="module"></script>
+</body>
+</html>
