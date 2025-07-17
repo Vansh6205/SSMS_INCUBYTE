@@ -1,0 +1,19 @@
+{
+  "name": "ssms_incubyte",
+  "version": "1.0.0",
+  "description": "Sweet shop management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "SSMS_INCUBYTE"
+  },
+  "author": "VANSH PATEL",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jest": "^30.0.4"
+  }
+}
